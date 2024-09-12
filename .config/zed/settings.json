@@ -1,0 +1,40 @@
+{
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-20240620"
+    },
+    "version": "2"
+  },
+  "theme": "Gruvbox Dark Hard",
+  "vim_mode": true,
+  "cursor_blink": false,
+  "ui_font_size": 17,
+  "buffer_font_size": 17,
+  "buffer_font_features": { "calt": false },
+  "tabs": {
+    "file_icons": true
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "lsp": {
+    "gopls": {
+      "initialization_options": {
+        "usePlaceholders": true,
+        "completeUnimported": true,
+        "experimentalPostfixCompletions": true,
+        "hints": {
+          "assignVariableTypes": false,
+          "compositeLiteralFields": false,
+          "compositeLiteralTypes": false,
+          "constantValues": true,
+          "functionTypeParameters": true,
+          "parameterNames": true,
+          "rangeVariableTypes": true
+        }
+      }
+    }
+  }
+}
